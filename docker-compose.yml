@@ -1,0 +1,12 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres_container
+    ports:
+      - '6500:5432'
+    env_file: .env
+    volumes:
+      - progresDB:/data/postgres
+
+volumes:
+  progresDB:

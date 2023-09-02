@@ -11,7 +11,7 @@ GET http://localhost:7777/todos HTTP/1.1
 
 
 ### get single todo
-GET http://localhost:7777/todos/2 HTTP/1.1
+GET http://localhost:7777/todos/1 HTTP/1.1
 
 
 ### create todo
@@ -19,5 +19,5 @@ POST http://localhost:7777/todos HTTP/1.1
 Content-Type: application/json
 
 {
-    "item": "Do Docs" 
+    "item": "test33"
 }

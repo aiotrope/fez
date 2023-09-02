@@ -1,4 +1,4 @@
-// accepted solutions for the exercise
+// accepted solutions for the exercise 1 Simple Todo JSON API
 
 const portConfig = { port: 7777 };
 

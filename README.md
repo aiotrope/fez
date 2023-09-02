@@ -1,12 +1,12 @@
 # fez
-Assignment on Designing and Building Scalable Web Applications: Simple Todo JSON API
-
-[Exercise link](https://fitech101.aalto.fi/designing-and-building-scalable-web-applications/dab-02-web-software-development-rehearsal/2-web-applications-with-deno/)
+Assignment on Designing and Building Scalable Web Applications: Review
 
 ## CLI commands
 
 ```bash
 # run server to localhost:7777
-deno run --allow-net --unstable app.js
+$ deno run --allow-net --unstable test1.js
+
+$ deno run --allow-read --allow-env --allow-net --unstable test2.js
 
 ```
