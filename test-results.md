@@ -1,21 +1,25 @@
 # Performance test results
 
-Brief description of the used server (choose one): HTTP/1.1
+Brief description of the used server: HTTP/1.1
 
-Brief description of your computer: MacBook Pro, Processor: 2,2 GHz 6-Core Intel Core i7, Memory: 16 GB 2400 MHz DDR4
+Brief description of local machine used: MacBook Pro, Processor: 2,2 GHz 6-Core Intel Core i7, Memory: 16 GB 2400 MHz DDR4
 
 ## No database
 
 ### Retrieving todos
 
 http_reqs: 147032
+
 http_req_duration - median: 630.75µs
+
 http_req_duration - 99th percentile: 1.32ms
 
 ### Posting todos
 
 http_reqs: 120202
+
 http_req_duration - median: 773.84µs
+
 http_req_duration - 99th percentile: 1.64ms
 
 ## With database
@@ -23,13 +27,17 @@ http_req_duration - 99th percentile: 1.64ms
 ### Retrieving todos
 
 http_reqs: 848
+
 http_req_duration - median: 118.21ms
+
 http_req_duration - 99th percentile: 449ms
 
 ### Posting todos
 
 http_reqs: 2911
+
 http_req_duration - median: 34.27ms
+
 http_req_duration - 99th percentile: 61.99ms
 
 ## Reflection
