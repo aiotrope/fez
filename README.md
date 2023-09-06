@@ -1,5 +1,5 @@
 # fez
-Assignment on Designing and Building Scalable Web Applications: Review
+DBSWA assignment exercise: Review
 
 ## CLI commands
 
